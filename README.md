@@ -1,3 +1,5 @@
+This is the untouched 1.17 branch from the example project I forked, please ignore.
+
 # Fabric Example Mod
 
 ## Setup
