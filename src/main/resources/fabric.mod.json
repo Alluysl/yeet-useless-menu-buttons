@@ -1,25 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "yeetuselessmenubuttons",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Yeet Useless Menu Buttons",
+  "description": "Removes the feedback and bug buttons from the pause menu to leave space for pre-1.16.5 mods like World Downloader that don't account for these new ones.\nButton selection gotten from TerraformersMC's Mod Menu implementation",
   "authors": [
-    "Me!"
+    "Alluysl"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/yeetuselessmenubuttons/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.fabricmc.example.ExampleMod"
+      "net.alluysl.yeetuselessmenubuttons.YeetUselessMenuButtons"
     ]
   },
   "mixins": [

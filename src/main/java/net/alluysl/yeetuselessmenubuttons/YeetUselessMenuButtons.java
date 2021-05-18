@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package net.alluysl.yeetuselessmenubuttons;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.screen.v1.Screens;
@@ -10,7 +10,7 @@ import net.minecraft.text.TranslatableText;
 
 import java.util.List;
 
-public class ExampleMod implements ClientModInitializer {
+public class YeetUselessMenuButtons implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
