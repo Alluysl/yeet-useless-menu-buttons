@@ -32,12 +32,9 @@ public class YeetUselessMenuButtons implements ClientModInitializer {
 //				Screens.getButtons(screen).get(4).visible = false;
 
 				// The cleaner method that TerraformersMC's Mod Menu uses, credit is due etc etc
-				List<AbstractButtonWidget> buttons = Screens.getButtons(screen);
-				for (int i = 0; i < buttons.size(); i++) {
-					AbstractButtonWidget button = buttons.get(i);
+				for (AbstractButtonWidget button : Screens.getButtons(screen))
 					if (buttonHasText(button, "menu.sendFeedback") || buttonHasText(button, "menu.reportBugs"))
 						button.visible = false;
-				}
 			}
 		});
 	}
