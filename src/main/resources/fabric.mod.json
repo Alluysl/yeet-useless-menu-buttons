@@ -18,12 +18,11 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
+    "client": [
       "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
