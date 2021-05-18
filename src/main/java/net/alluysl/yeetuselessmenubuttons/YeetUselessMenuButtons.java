@@ -8,8 +8,6 @@ import net.minecraft.client.gui.widget.AbstractButtonWidget;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 
-import java.util.List;
-
 public class YeetUselessMenuButtons implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
