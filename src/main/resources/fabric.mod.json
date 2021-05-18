@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Yeet Useless Menu Buttons",
-  "description": "Removes the feedback and bug buttons from the pause menu to leave space for pre-1.16.5 mods like World Downloader that don't account for these new ones.\nButton selection gotten from TerraformersMC's Mod Menu implementation",
+  "description": "Removes the feedback and bug buttons from the pause menu to leave space for pre-1.16.5 that don't account for these new ones.\nButton selection gotten from TerraformersMC's Mod Menu implementation",
   "authors": [
     "Alluysl"
   ],
