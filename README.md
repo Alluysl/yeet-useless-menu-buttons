@@ -1,1 +1,3 @@
-This is an attempt at a Fabric mod and any mod for that matter. I'll see what I can do to make a mod that adds origins out of it. Let's see how it goes...
+# Yeet Useless Menu Buttons
+
+A very simple Fabric mod (my first one) that hides the "Give Feedback" and "Report Bugs" buttons.
